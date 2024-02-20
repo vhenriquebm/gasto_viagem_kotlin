@@ -1,3 +1,21 @@
 <resources>
+
+    #APP NAME
     <string name="app_name">GastoViagemAndroid</string>
+
+    #HOME
+    <string name="home_distance_placeholder">Distância</string>
+    <string name="home_distance_text">Total de quilometros</string>
+
+    <string name="home_price_placeholder">Preço</string>
+    <string name="home_price_text">Preço por litro</string>
+
+    <string name="home_autonomy_placeholder">Autonomia</string>
+    <string name="home_autonomy_text">Km por litro</string>
+
+    <string name="home_result_text">SEU GASTO TOTAL SERÁ DE:</string>
+    <string name="home_result_value">R$ 0</string>
+
+    <string name="home_calculate_button">CALCULAR</string>
+
 </resources>
