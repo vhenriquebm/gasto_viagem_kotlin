@@ -18,7 +18,18 @@ class MainActivity : AppCompatActivity() {
 
     private fun configureButton() {
         binding.buttonCalculate.setOnClickListener {
-            println("The button is working")
+            calculate()
         }
+    }
+
+    private fun calculate() {
+        val price = binding.editPrice.text.toString().toFloat()
+        val distance = binding.editDistance.text.toString().toFloat()
+        val autonomy = binding.editAutonomy.text.toString().toFloat()
+
+        val totalValue = (distance * price) / autonomy
+        val totalString = "R$ ${"%.2f".format(totalValue)}"
+
+        binding.textPriceValue.text = totalString
     }
 }
