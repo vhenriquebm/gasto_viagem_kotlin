@@ -8,36 +8,45 @@
     tools:context=".MainActivity">
 
     <EditText
+        android:id="@+id/edit_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/home_distance_placeholder" />
+        android:hint="@string/home_distance_placeholder"
+        android:inputType="numberDecimal" />
 
     <TextView
+        android:id="@+id/text_distance"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/home_distance_text" />
 
     <EditText
+        android:id="@+id/edit_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/home_price_placeholder" />
+        android:hint="@string/home_price_placeholder"
+        android:inputType="numberDecimal" />
 
     <TextView
+        android:id="@+id/text_price"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="@string/home_price_text" />
 
     <EditText
+        android:id="@+id/edit_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:hint="@string/home_autonomy_placeholder" />
+        android:hint="@string/home_autonomy_placeholder"
+        android:inputType="numberDecimal" />
 
     <TextView
+        android:id="@+id/text_autonomy"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
@@ -52,6 +61,7 @@
         android:textSize="16sp" />
 
     <TextView
+        android:id="@+id/text_price_value"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -61,6 +71,7 @@
         android:textSize="32sp" />
 
     <Button
+        android:id="@+id/button_calculate"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
