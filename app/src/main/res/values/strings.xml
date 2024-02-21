@@ -18,4 +18,6 @@
 
     <string name="home_calculate_button">CALCULAR</string>
 
+    <string name="home_fill_all_fields">Preencha todos os campos</string>
+
 </resources>
